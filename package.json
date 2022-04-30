@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-input-stringifier-action",
+  "version": "1.0.0",
+  "description": "This is github action, which can take input as stringified object format, and transform it with required format for action. Please note as of today action requires stringified version of array for matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav-sarwade-404/dynamic-input-stringifier-action.git"
+  },
+  "keywords": ["dynamic github metrix","dynamic input stringifier","dynamic input stringifier for github actions","github actions","dynamic github matrix workflow","dynamic github matrix"],
+  "author": "Vaibhav Sarwade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhav-sarwade-404/dynamic-input-stringifier-action/issues"
+  },
+  "homepage": "https://github.com/vaibhav-sarwade-404/dynamic-input-stringifier-action#readme",
+  "dependencies": {
+    "@actions/core": "1.7.0"
+  }
+}

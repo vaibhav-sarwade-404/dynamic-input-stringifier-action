@@ -1,0 +1,20 @@
+# This is custom action, for transforming input to stringified output
+name: Workflow dynamic input stringifier
+description: This custom action will transform input to stringified output to use it as input to matrix
+inputs:
+  input:
+    description: provide all input variables in object key-value structure, , if value has commas it will be converted to array
+  inputToRatainCommas:
+    description: provide all input variables in object key-value structure, value can have commas which will not be converted to arrays
+  schema:
+    description: provide schema to transform input into. Make sure it is wrapped in '' single quotaion
+    required: true
+outputs:
+  stringifiedVersion:
+    description: This is transformed iput to stringified version
+runs:
+  using: node16
+  main: "dist/index.js"
+branding:
+  icon: "check-circle"
+  color: "purple"
